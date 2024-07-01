@@ -1,0 +1,98 @@
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: var(--accent-color);
+}
+
+/* Links */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: var(--accent-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button:hover, .btn:hover {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--secondary-color);
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav > li > a {
+  color: var(--accent-color);
+}
+.navbar-nav > li > a:hover {
+  color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+.footer a {
+  color: var(--accent-color);
+}
+.footer a:hover {
+  color: var(--primary-color);
+}
+
+/* Panels */
+.panel {
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.panel-heading {
+  background-color: #f9f9f9;
+  color: var(--text-color);
+  border-bottom: 1px solid #dcdcdc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 15px 20px;
+}
+.panel-body {
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+/* Icons (if needed, change colors) */
+.glyphicon {
+  color: var(--primary-color);
+}

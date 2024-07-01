@@ -1,0 +1,7 @@
+.fa {
+  color: var(--accent-color);
+}
+
+.fa:hover {
+  color: var(--primary-color);
+}
